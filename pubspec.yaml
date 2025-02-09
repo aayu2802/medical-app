@@ -1,0 +1,23 @@
+name: myapp
+description: A sample Flutter application
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+   
+  google_fonts: ^3.0.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+assets:
+    - ./assets/a.png
+    - ./assets/b.png
+  
